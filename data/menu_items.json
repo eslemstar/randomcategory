@@ -1,0 +1,10 @@
+[
+  {"category":"L", "name":"Akdeniz Salatası", "description":"Taze yeşillikler, domates ve zeytin", "price":"190 TL"},
+  {"category":"L", "name":"Sebzeli Sandviç", "description":"Izgara sebze ve peynir", "price":"220 TL"},
+  {"category":"D", "name":"Mantarlı Makarna", "description":"Kremalı mantar sosu", "price":"280 TL"},
+  {"category":"D", "name":"Sebzeli Pizza", "description":"Renkli sebzeler ve mozzarella", "price":"310 TL"},
+  {"category":"S", "name":"Çikolatalı Kek", "description":"Yumuşak dokulu çikolatalı kek", "price":"165 TL"},
+  {"category":"S", "name":"Meyveli Kup", "description":"Mevsim meyveleriyle hazırlanır", "price":"150 TL"},
+  {"category":"B", "name":"Ev Yapımı Limonata", "description":"Taze limonla hazırlanır", "price":"105 TL"},
+  {"category":"B", "name":"Sıcak Çikolata", "description":"Yoğun çikolata lezzeti", "price":"125 TL"}
+]

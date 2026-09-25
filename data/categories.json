@@ -1,0 +1,6 @@
+[
+  {"short_name":"L", "name":"Öğle Menüsü", "description":"Günün ortasına hafif seçenekler", "emoji":"🥗"},
+  {"short_name":"D", "name":"Akşam Menüsü", "description":"Akşam için özenle hazırlanan tabaklar", "emoji":"🍝"},
+  {"short_name":"S", "name":"Tatlılar", "description":"Yemekten sonra küçük bir mutluluk", "emoji":"🍰"},
+  {"short_name":"B", "name":"İçecekler", "description":"Serin ve sıcak seçenekler", "emoji":"🍹"}
+]

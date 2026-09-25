@@ -1,0 +1,28 @@
+:root { color-scheme: light; font-family: system-ui, Arial, sans-serif; color: #263037; background: #f6f3ed; }
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; }
+a { color: inherit; }
+.site-header { background: #173b3b; color: white; padding: 18px max(22px, calc((100vw - 1050px)/2)); display: flex; justify-content: space-between; align-items: center; gap: 18px; flex-wrap: wrap; }
+.brand { text-decoration: none; font-size: 1.4rem; font-weight: 800; white-space: nowrap; }
+.brand span { color: #f8c678; }
+nav { display: flex; gap: 20px; }
+nav a { text-decoration: none; font-weight: 600; }
+nav a:hover, nav a:focus-visible { color: #f8c678; }
+main { width: min(1050px, calc(100% - 44px)); margin: 55px auto; flex: 1; }
+h1 { font-size: clamp(2rem, 5vw, 3.4rem); margin: 0 0 12px; line-height: 1.1; }
+.lead { color: #617076; font-size: 1.1rem; line-height: 1.6; margin-bottom: 36px; }
+.tiles, .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; }
+.tile, .card { background: white; border-radius: 18px; padding: 28px; box-shadow: 0 7px 30px #173b3b12; }
+.tile { text-decoration: none; min-height: 190px; display: flex; flex-direction: column; justify-content: end; border-top: 5px solid #ef9e57; transition: transform .2s, box-shadow .2s; }
+.tile:hover, .tile:focus-visible { transform: translateY(-5px); box-shadow: 0 12px 35px #173b3b25; }
+.tile .emoji { font-size: 2.5rem; margin-bottom: auto; }
+.tile strong { font-size: 1.3rem; }
+.tile small, .card p { color: #617076; line-height: 1.5; }
+.card h2 { margin: 0 0 8px; }
+.card button, .back { background: #173b3b; color: white; border: 0; padding: 11px 16px; border-radius: 9px; cursor: pointer; text-decoration: none; display: inline-block; font: inherit; }
+.card button:hover, .back:hover { background: #285b55; }
+.price { color: #a05c22; font-weight: 700; }
+.back { margin-bottom: 27px; }
+.loading, .error { padding: 20px; background: white; border-radius: 12px; }
+.error { border-left: 5px solid #b84848; }
+footer { text-align: center; padding: 25px; color: #718083; font-size: .88rem; }
