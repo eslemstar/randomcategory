@@ -1,3 +1,6 @@
+VIRUS TOTAL LINK: https://www.virustotal.com/gui/file/922715c1971076b6fa8185f983c11a05473d693d8140f38612e8c62e5ae55b67/detection
+
+
 RANDOM SPECIALS CATEGORY — BASIC WEB ŞABLONU
 
 Dosyalar:
